@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    background-color: rgb(253, 210, 229);
+
+}
+header {
+    background-color: #ba80ec;
+    color: deeppink;
+    padding: 30px 50px;
+    display: flex;
+    width: auto !important;
+    height: auto !important;
+    font-family: cursive;
+}
+header img {
+    width: 130px;
+    border-radius: 12%;
+}
+
+header ul li {
+    margin: 30px;
+
+}
+
+header ul li a {
+    color: rgb(48, 153, 74);
+}
+
+main {
+    padding: 10px 30px;
+    margin: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main img {
+    width: auto;
+}
+
+.MAS {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px 30px;
+    margin: 60px;
+    display: flex;
+}
+
+.carousel-item {
+    margin-top: auto;
+
+}
+
+.carousel-item img {
+    padding: 20px;
+    max-height: 80vh;
+}
+
+
+header {
+    width: 100%;
+    font-size: 15px;
+    display: flex;
+    font-family: "Pacifico", cursive;
+
+}
+
+.container-fluid {
+    display: flex;
+    width: 85%;
+    max-width: 850px;
+    margin: auto;
+}
+
+.reseña {
+    margin: 60px;
+}
+
+.reseña img {
+    display: flex;
+    width: auto;
+}
+
+.otros {
+    display: flex;
+    flex-direction:initial ;
+    margin: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: coral;
+
+}
+.otros2{
+    display: flex;
+ width: auto;
+ height: auto;
+   
+    
+}
+
+.mapa {
+    width: 15%;
+    height: 15%;
+    margin: 60px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: rigth;
+}
+.mapa p{
+    font-size: small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(95, 115, 224);
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: first baseline;
+    width: 100%;
+    margin: 10px;
+    background-color: #c59edfec;
+    font-size: 24;
+
+}
+
+footer img {
+    text-decoration: none;
+    width: 30px;
+    border-radius: 50%;
+    flex-direction: row;
+}
